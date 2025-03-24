@@ -1,0 +1,2060 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>MAS-2025</title>
+  <meta content="MAS-2025" name="description">
+  <meta content name="keywords">
+ 
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i, Raleway:300,300i,400,400i,500,500i,600,600i,700,700i, Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <style>
+    li {
+      margin: 10px 10px 10px 10px;
+    }
+  </style>
+
+  <style>
+    .interactive-panel {
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+      margin-bottom: 15px;
+      /* Add margin to the bottom of each panel */
+    }
+
+    .interactive-panel:hover {
+      border-color: #007bff;
+      box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+      cursor: pointer;
+    }
+  </style>
+
+  <style>
+    /* CSS for coloring schedule rows */
+    .morning-session {
+      background-color: #fff4d5;
+      /* Light yellow for morning sessions */
+    }
+
+    .afternoon-session {
+      background-color: #dbe7f2;
+      /* Light blue for afternoon sessions */
+    }
+
+    .evening-session {
+      background-color: #e9daeb;
+      /* Light purple for evening sessions */
+    }
+
+    .night-session {
+      background-color: #f9f0ed;
+      /* Light purple for evening sessions */
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center  header-transparent ">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <h1><a href="https://llmagents.github.io/" target="blank_"> </a></h1>
+
+        <!-- <img src="assets/img/logo.png" alt="TamingLLM@SIGDIAL & INLG 2023"> -->
+
+        <!-- <p style="margin : 0; padding-top:0; padding-left: 80px; padding-bottom:0;  line-height:0; font-size: 10px; text-align: center;" class="green-text">
+        May 26-28, 2022 ,  Dublin
+      </p> -->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#about">About</a></li> -->
+          <li><a class="nav-link scrollto" href="#topics">Topics</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#cfp">Call for
+              Papers</a></li>
+          <li><a class="nav-link scrollto" href="#accepted-papers">Accepted
+              Papers</a></li> -->
+          <li><a class="nav-link scrollto" href="#speaker">Speakers</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#panelist">Panelists</a></li> -->
+
+          <li><a class="nav-link scrollto" href="#schedule">Schedule</a></li>
+          <li><a class="nav-link scrollto" href="#org">Organization</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#reviewers">Reviewers</a></li> -->
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+
+  <section id="hero" class="d-flex flex-column justify-content-end align-items-center">
+    <div id="heroCarousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="carousel-container">
+          <div style="text-align: center;">
+            <!-- <h2 style="font-size: 30px; color: #a2d2f4;" class="animate__animated animate__fadeInDown">ICML 2025
+              Workshop</h2> -->
+            <h2 style="font-size: 60px; color: #daa520;" class="animate__animated animate__fadeInDown">Multi-Agent
+              Systems in the Era of Foundation Models: Opportunities, Challenges and Futures</h2>
+            <!-- <h2 style="font-size: 30px; color: #ffffff;" class="animate__animated animate__fadeInDown">Forty-Second
+              International Conference on Machine Learning</h2>
+            <h3 style="font-size: 30px; color: #4174bb; margin-top: 0px;" class="animate__animated animate__fadeInDown">
+              Vancouver, Canada</h3>
+            <h3 style="font-size: 30px; color: #44cbd6; margin-top: 0px;" class="animate__animated animate__fadeInDown">
+              July 13, 2025</h3> -->
+          </div>
+          <!-- <p class="animate__animated animate__fadeInDown">
+            Links:
+            <a href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fctrlnlg.github.io%2F&ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Efollow%7Ctwgr%5Ectrl_nlg&region=follow_link&screen_name=LLMAgents"
+              target="_blank" style="color: lightgrey;">Twitter</a> |
+            <a href="https://openreview.net/group?id=ICLR.cc/2025/Workshop" target="_blank"
+              style="color: lightgrey;">OpenReview</a> |
+            <a href="https://icml.cc/Conferences/2025" target="_blank" style="color: lightgrey;">ICML 2025</a>
+          </p> -->
+
+          <p class="animate__animated fanimate__adeInUp">
+
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+      </g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+      </g>
+    </svg>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <section id="about" class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-9">
+            <p style="font-size: 20px; margin-bottom: 20px;">
+              Motivation. The scaling of model parameters has unlocked the groundbreaking capabilities of foundation
+              models. Likewise,
+              in human society, scaling and collaboration across individuals, organizations, companies, and nations
+              amplify collective intelligence to
+              unprecedented levels, enabling remarkable achievements that would be impossible for individuals alone,
+              such as space exploration and
+              autonomy. Could this principle of scaling also apply to the growth in the number of agents?
+              Multi-agent systems may offer a
+              promising path forward. By progressively integrating more agents, multi-agent systems can activate diverse
+              functionalities within these foundation model-powered generalist agents and coordinate a broader range of
+              complementary functionalities.
+              This synergy fosters improved problem-solving, adaptability, and decision-making capabilities. As the
+              multi-agent system scales, it has a
+              huge potential to achieve enhanced capabilities and tackle increasingly complex tasks, offering a
+              promising solution toward the ultimate goal
+              of achieving artificial general intelligence (AGI).
+            </p>
+            <p style="font-size: 20px; margin-bottom: 20px;">
+              Background. With the advent of large foundation models, including large language models (LLMs)
+              and visual language models (VLMs), research in multi-agent systems has progressed from relying on
+              specialized models to harnessing
+              the versatile capabilities of more
+              generalized LLM/VLM-powered agents. As a community, we are embracing this paradigm shift to develop
+              general-purpose multi-agent
+              systems. These systems aim to leverage collaboration to enhance individual agent
+              capabilities, ultimately advancing
+              toward sophisticated AI agents that can serve as versatile human assistants. This field has already seen
+              numerous promising developments.
+              For instance, multi-agent systems for social simulation are used to generate diverse
+              synthetic data, further enhancing the
+              capabilities of foundation models and also investigating social behaviors. Moreover, multi-agent systems
+              emulate human standards of
+              processing through agentic workflows, significantly advancing a wide range of complex and urgent
+              real-world applications, including
+              mathematics, software development, web and mobile operations, embodied manipulation,
+              and navigation, among
+              others. These developments underscore the vast potential of multi-agent systems powered by foundation
+              models to tackle increasingly
+              complex challenges across diverse domains.
+            </p>
+            <p style="font-size: 20px; margin-bottom: 20px;">
+              Our Workshop. This workshop seeks to bring together researchers from diverse disciplines to explore
+              emerging topics in multi-agent systems
+              powered by foundation models (LLMs, VLMs, and MMLMs). By complementing existing workshops focused on
+              individual intelligence, it
+              introduces a new perspective centered on advancing agent capabilities through multi-agent collaboration
+              and their integration into human
+              life. The primary objective of this workshop is to foster meaningful discussions and collaborations that
+              address critical scientific questions
+              surrounding the development and application of such systems.
+            </p>
+            <br>
+            <!-- Previous Workshop: <a href="https://llmagents.github.io/" target="blank_">ICLR 2024 Workshop on LLM
+                Agents</a> -->
+            </p>
+          </div>
+          <!-- <div class="col-3">
+            <p> <img src="assets/img/taming3.jpg" class="img-fluid" alt> <a></a> </p>
+          </div> -->
+          <div class="col-md-1">
+          </div>
+        </div>
+      </div>
+
+    </section><!-- End About Section -->
+
+    <!-- ======= Topics Section ======= -->
+    <section id="topics" class="team">
+      <div class="container">
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Topics</h2>
+        </div>
+        <div class="container">
+          <div class="row">
+            <p>We will explore a range of topics in this workshop,
+              including, but not limited to, the following areas:</p>
+          </div>
+
+          <!-- Panel for each topic -->
+          <div class="row">
+            <!-- Topic 1 -->
+            <div class="col-md-4">
+              <div class="topic-panel interactive-panel">
+                <b>Multi-Agent Simulation:</b>
+                <p>Simulations in society, games, psychology, economics, and politics.</p>
+              </div>
+            </div>
+
+            <!-- Topic 2 -->
+            <div class="col-md-4">
+              <div class="topic-panel interactive-panel">
+                <b>Multi-Agent Datasets and Benchmarks:</b>
+                <p>The creation of datasets and benchmarks to inspire innovation and provide more effective evaluation
+                  of the enhanced capabilities of multi-agent systems.</p>
+              </div>
+            </div>
+
+            <!-- Topic 3 -->
+            <div class="col-md-4">
+              <div class="topic-panel interactive-panel">
+                <b>Multi-Agent Orchestration and Efficiency:</b>
+                <p>Multi-agent workflows, collaboration graphs, and communication protocols.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <!-- Topic 4 -->
+            <div class="col-md-3">
+              <div class="topic-panel interactive-panel">
+                <b>Human-Agent Collaboration:</b>
+                <p>Exploring interactions and synergies between humans and agents to foster the development of more
+                  trustworthy
+                  and socially friendly agents.</p>
+              </div>
+            </div>
+
+            <!-- Topic 5 -->
+            <div class="col-md-3">
+              <div class="topic-panel interactive-panel">
+                <b>Multi-Agent Applications:</b>
+                <p>Math, software development, question answering, web agents, os agents, mobile agents, embodied agents
+                  for navigation and exploration, autonomous systems, robotics.</p>
+              </div>
+            </div>
+
+            <!-- Topic 6 -->
+            <div class="col-md-3">
+              <div class="topic-panel interactive-panel">
+                <b>Reinforcement Learning Methods for Multi-Agent Systems:</b>
+                <p>Advance the multi-agent system from the interactive environment feedback.</p>
+              </div>
+            </div>
+
+            <!-- Topic 7 -->
+            <div class="col-md-3">
+              <div class="topic-panel interactive-panel">
+                <b>Symbolic Learning Methods for Multi-Agent Systems:</b>
+                <p>Theoretical framework for multi-agent system.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Topics Section -->
+
+    <!-- ======= Speaker Section ======= -->
+    <section id="speaker" class="team">
+      <div class="container">
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Speakers and panelists</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up">
+              <div class="member-img">
+                <img src="assets/img/speaker/Mandy(Mengdi)Wang.png" class="img-fluid" style="width: 100%;height: 30%;" alt>
+              </div>
+              <div class="member-info">
+                <h4><a href="https://mwang.princeton.edu/">Mengdi Wang</a></h4>
+                <strong>Professor, Princeton</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up">
+              <div class="member-img">
+                <img src="assets/img/speaker/Juergen Schmidhuber.jpg" class="img-fluid" style="width: 100%;height: 30%;" alt>
+              </div>
+              <div class="member-info">
+                <h4><a href="https://people.idsia.ch/~juergen/">Juergen Schmidhuber</a></h4>
+                <strong>Professor, King Abdullah University of Science and Technology</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up">
+              <div class="member-img">
+                <img src="assets/img/speaker/joon.jpg" class="img-fluid" style="width: 100%;height: 30%;" alt>
+              </div>
+              <div class="member-info">
+                <h4><a href="https://www.joonsungpark.com/">Joon Sung Park</a></h4>
+                <strong>PhD student, Stanford</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up">
+              <div class="member-img">
+                <img src="assets/img/speaker/Diyi_Yang.jpg" class="img-fluid" style="width: 100%;height: 30%;" alt>
+              </div>
+              <div class="member-info">
+                <h4><a href="https://cs.stanford.edu/~diyiy/">Diyi Yang</a></h4>
+                <strong>Assistant Professor, Stanford</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up">
+              <div class="member-img">
+                <img src="assets/img/speaker/Natasha.jpg" class="img-fluid" style="width: 100%;height: 30%;" alt>
+              </div>
+              <div class="member-info">
+                <h4><a href="https://natashajaques.ai/https://natashajaques.ai/">Natasha Jaques</a></h4>
+                <strong>Assistant Professor, the University of Washington Paul G. Allen School</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up">
+              <div class="member-img">
+                <img src="assets/img/speaker/yilun.png" class="img-fluid" style="width: 100%;height: 30%;" alt>
+              </div>
+              <div class="member-info">
+                <h4><a href="https://yilundu.github.io/">Yilun Du</a></h4>
+                <strong>Senior research scientist, Google Deepmind</strong>
+              </div>
+            </div>
+          </div>
+
+        </div>
+    </section>
+
+    <!-- ======= Panelist Section ======= -->
+    <!-- <section id="panelist" class="team">
+      <div class="container">
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Panelist</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up">
+              <div class="member-img">
+                <img src="assets/img/panelist/tao.jpeg" class="img-fluid" alt>
+              </div>
+              <div class="member-info">
+                <h4><a href="https://taoyds.github.io/">Tao Yu</a></h4>
+                <strong>Assistant Professor, The University of Hong Kong</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up">
+              <div class="member-img">
+                <img src="assets/img/panelist/roberta.jpeg" class="img-fluid" alt>
+              </div>
+              <div class="member-info">
+                <h4><a href="https://rraileanu.github.io/">Roberta Raileanu</a></h4>
+                <strong>Research Scientist, Meta GenAI</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up">
+              <div class="member-img">
+                <img src="assets/img/panelist/alexandre.jpeg" class="img-fluid" alt>
+              </div>
+              <div class="member-info">
+                <h4><a href="https://www.alexdrouin.com/">Alexandre Drouin</a></h4>
+                <strong>Staff Research Scientist, ServiceNow Research </strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up">
+              <div class="member-img">
+                <img src="assets/img/speaker/denny.jpeg" class="img-fluid" alt>
+              </div>
+              <div class="member-info">
+                <h4><a href="https://dennyzhou.github.io/">Denny
+                    Zhou</a></h4>
+                <strong>Principal Scientist/Research Director, Google
+                  DeepMind</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up">
+              <div class="member-img">
+                <img src="https://www.nextcanada.com/wp-content/uploads/2019/09/graham-neubig.jpg" class="img-fluid"
+                  alt>
+              </div>
+              <div class="member-info">
+                <h4><a href="https://www.phontron.com/">Graham
+                    Neubig</a></h4>
+                <strong>Associate Professor, CMU LTI</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up">
+              <div class="member-img">
+                <img src="assets/img/speaker/luke.jpeg" class="img-fluid" alt>
+              </div>
+              <div class="member-info">
+                <h4><a href="https://www.cs.washington.edu/people/faculty/lsz">Luke Zettlemoyer</a></h4>
+                <strong>Professor, Allen School of Computer Science & Engineering, University of Washington</strong>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+    </section> -->
+
+    <!-- ======= Schedule Section ======= -->
+    <!-- ======= Workshop Schedule Section ======= -->
+    <section id="schedule" class="schedule">
+      <div class="container">
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Workshop Schedule</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="schedule-table">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Time</th>
+                    <th scope="col">Session</th>
+                    <th scope="col">Duration</th>
+                    <th scope="col">Details</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <!-- Opening Remarks -->
+                  <tr class="morning-session">
+                    <td>9:00AM - 9:10AM</td>
+                    <td>Opening Remarks</td>
+                    <td>10 min</td>
+                    <td>Welcome and Introduction to the Workshop</td>
+                  </tr>
+                  <!-- Invited Talk 1 -->
+                  <tr class="morning-session">
+                    <td>9:10AM - 9:30AM</td>
+                    <td>Invited Talk #1</td>
+                    <td>20 min</td>
+                    <td>Talk1</td>
+                  </tr>
+                  <!-- Invited Talk 2 -->
+                  <tr class="morning-session">
+                    <td>9:40AM - 10:00AM</td>
+                    <td>Invited Talk #2</td>
+                    <td>20 min</td>
+                    <td>Talk2</td>
+                  </tr>
+                  <!-- Oral Presentations 1 -->
+                  <tr class="morning-session">
+                    <td>10:10AM - 10:40AM</td>
+                    <td>Oral Presentations #1</td>
+                    <td>30 min</td>
+                    <td>Oral Presentations1</td>
+                  </tr>
+                  <!-- Poster Session & Coffee Socials 1 -->
+                  <tr class="morning-session">
+                    <td>10:45AM - 11:45AM</td>
+                    <td>Poster Session & Coffee Socials #1</td>
+                    <td>60 min</td>
+                    <td>Poster Session & Coffee Socials1</td>
+                  </tr>
+                  <!-- Lunch Break -->
+                  <tr>
+                    <td>11:45AM - 1:00PM</td>
+                    <td>Lunch Break</td>
+                    <td>75 min</td>
+                    <td>Time for lunch and informal discussions</td>
+                  </tr>
+                  <!-- Invited Talk 3 -->
+                  <tr class="afternoon-session">
+                    <td>1:00PM - 1:20PM</td>
+                    <td>Invited Talk #3</td>
+                    <td>20 min</td>
+                    <td>Talk3</td>
+                  </tr>
+                  <!-- Invited Talk 4 -->
+                  <tr class="afternoon-session">
+                    <td>1:30PM - 1:40PM</td>
+                    <td>Invited Talk #4</td>
+                    <td>10 min</td>
+                    <td>Talk4</td>
+                  </tr>
+                  <!-- Oral Presentations 2 -->
+                  <tr class="afternoon-session">
+                    <td>1:50PM - 2:20PM</td>
+                    <td>Oral Presentations #2</td>
+                    <td>30 min</td>
+                    <td>Oral Presentations2</td>
+                  </tr>
+                  <!-- Poster Session & Coffee Socials 2 -->
+                  <tr class="afternoon-session">
+                    <td>2:25PM - 3:25PM</td>
+                    <td>Poster Session & Coffee Socials #2</td>
+                    <td>60 min</td>
+                    <td>Networking and refreshments</td>
+                  </tr>
+                  <!-- Invited Talk 5 -->
+                  <tr class="afternoon-session">
+                    <td>3:30PM - 3:50PM</td>
+                    <td>Invited Talk #5</td>
+                    <td>20 min</td>
+                    <td>Talk5</td>
+                  </tr>
+                  <!-- Invited Talk 6 -->
+                  <tr class="afternoon-session">
+                    <td>4:00PM - 4:20PM</td>
+                    <td>Invited Talk #6</td>
+                    <td>20 min</td>
+                    <td>Talk6</td>
+                  </tr>
+                  <!-- Panel Discussion -->
+                  <tr class="evening-session">
+                    <td>4:30PM - 5:00PM</td>
+                    <td>Panel Discussion</td>
+                    <td>30 min</td>
+                    <td>Interactive session with experts</td>
+                  </tr>
+                  <!-- Awards and Conclusive Remarks -->
+                  <tr class="night-session">
+                    <td>5:00PM - 5:15PM</td>
+                    <td>Awards and Conclusive Remarks</td>
+                    <td>15 min</td>
+                    <td>Concluding the workshop and award announcements</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- End Workshop Schedule Section -->
+
+    <!-- ======= CFP Section ======= -->
+    <!-- <section id="cfp" class="cfp">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Call for Papers</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="cfp-details">
+              <h3>Important Dates:</h3>
+              <ul>
+                <li><strong>Submission Deadline:</strong> February
+                  11th, 2024 (11:59 pm AoE)
+                </li>
+                <li><strong>Acceptance Notification:</strong>
+                  <del>March 3rd, 2024</del> March 10th, 2024
+                </li>
+
+                <li><strong>Camera Ready Deadline:</strong> April
+                  20th, 2024</li>
+                <li><strong>Paper Availability on Website:</strong>
+                  April
+                  27th, 2024</li>
+                <li><strong>Workshop Date:</strong> May 11th,
+                  2024</li>
+                <li><strong>Location:</strong> Vienna Exhibition &
+                  Congress Center</li>
+              </ul>
+
+              <h3>Submission Tracks:</h3>
+
+              <p>Consistent with the themes of the workshop, we
+                invite
+                contributions in the areas <a href="#topics">highlighted above</a>. However, we
+                emphasize that the topics list is not exhaustive and
+                welcome submissions in related areas. There is no
+                need to specify your track on OpenReview. Our
+                workshop will not accept work that has been
+                previously published in other conferences on machine
+                learning. Work that is presented at the main ICLR
+                conference should not be submitted to us as well.
+
+              </p>
+
+              <ul>
+                <li><strong>Research Paper Track:</strong> We
+                  welcome a
+                  variety of original research papers, including but
+                  not limited to those
+                  that propose new techniques, discussion-based
+                  papers,
+                  literature surveys, and position papers. Research
+                  papers can have a <strong>maximum</strong> length
+                  of up to 9
+                  pages of content, plus unlimited pages
+                  for references and appendix.</li>
+                <li><strong>Demo Paper Track:</strong> We also
+                  welcome
+                  technical reports for the demo track, with a
+                  <strong>maximum</strong>
+                  of 9 pages (same as research papers). In addition
+                  to the
+                  paper, please provide a link to a video, website,
+                  or
+                  code
+                  repository showcasing your demo.
+                </li>
+              </ul>
+
+              <h3>Submission Guidelines:</h3>
+              <ul>
+                <li>🌐 Submission Platform:
+                  <ul>
+                    <li>Submit your papers here: <strong><a
+                          href="https://openreview.net/group?id=ICLR.cc/2024/Workshop/LLMAgents">Openreview
+                          Submission
+                          Site</a></strong></li>
+                  </ul>
+                </li>
+                <li>📄 Paper Requirements:
+                  <ul>
+                    <li>Use the provided <a href="https://github.com/ICLR/Master-Template/raw/master/iclr2024.zip">LaTeX
+                        template</a> for your
+                      submission.</li>
+                    <li>Papers should be anonymized and uploaded as
+                      a
+                      single PDF.</li>
+                    <li>📚 References and Appendix: Reviewers are
+                      not
+                      obliged to read the appendix.</li>
+                  </ul>
+                </li>
+                <li>🔍 Non-Archival Policy:
+                  <ul>
+                    <li>Submissions will <strong>not be</strong>
+                      indexed or have archival proceedings. We
+                      welcome ICML 24 or ACL 24 submissions.</li>
+                    <li>Accepted papers will be displayed on the
+                      workshop website on <strong>27th April
+                        2024</strong>. </li>
+                  </ul>
+                </li>
+                <li>🔄 Dual Submission Policy:
+                  <ul>
+                    <li>Submissions under review at other venues
+                      will
+                      be accepted, provided they do not breach any
+                      dual-submission or anonymity policies of those
+                      venues.</li>
+                  </ul>
+                </li>
+                <li>👀 Review Process:
+                  <ul>
+                    <li>The review process is double-blind.</li>
+                  </ul>
+                </li>
+                <li>🏆 Best Paper Award:
+                  <ul>
+                    <li>The award for best paper will be
+                      announced at the
+                      workshop.</li>
+                  </ul>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section> -->
+    <!-- End CFP Section -->
+
+    <!-- ======= Accepted Papers Section ======= -->
+    <!-- <section id="accepted-papers" class="accepted-papers">
+      <div class="container">
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Accepted Papers</h2>
+        </div>
+        <div class="accordion" id="papersAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOral">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseOral" aria-expanded="true" aria-controls="collapseOral">
+                Oral Presentations
+              </button>
+            </h2>
+            <div id="collapseOral" class="accordion-collapse collapse" aria-labelledby="headingOral"
+              data-bs-parent="#papersAccordion">
+              <div class="accordion-body">
+                <ul>
+                  <li><strong> AutoGen: Enabling Next-Gen LLM
+                      Applications via Multi-Agent
+                      Conversation</strong>, <br>Qingyun Wu, Gagan
+                    Bansal, Jieyu Zhang, Yiran Wu, Beibin Li, Erkang
+                    Zhu, Li Jiang, Xiaoyun Zhang, Shaokun Zhang,
+                    Jiale Liu, Ahmed Hassan Awadallah, Ryen W White,
+                    Doug Burger, Chi Wang</li>
+                  <li><strong> Data-Copilot: Bridging Billions of
+                      Data and Humans with Autonomous
+                      Workflow</strong>, <br>Wenqi Zhang, Yongliang
+                    Shen, Weiming Lu, Yueting Zhuang</li>
+                  <li><strong> AutoAct: Automatic Agent Learning
+                      from Scratch via Self-Planning</strong>,
+                    <br>Shuofei Qiao, Ningyu Zhang, Runnan Fang,
+                    Yujie Luo, Wangchunshu Zhou, Yuchen Eleanor
+                    Jiang, chengfei lv, Huajun Chen
+                  </li>
+                  <li><strong> Large Language Models can
+                      Strategically Deceive their Users when Put
+                      Under Pressure</strong>, <br>Jérémy Scheurer,
+                    Mikita Balesni, Marius Hobbhahn</li>
+                  <li><strong> Executable Code Actions Elicit Better
+                      LLM Agents</strong>, <br>Xingyao Wang, Yangyi
+                    Chen, Lifan Yuan, Yizhe Zhang, Yunzhu Li, Hao
+                    Peng, Heng Ji</li>
+                  <li><strong> Exploring Collaboration Mechanisms
+                      for LLM Agents: A Social Psychology
+                      View</strong>, <br>Jintian Zhang, Xin Xu,
+                    Ningyu Zhang, Ruibo Liu, Bryan Hooi, Shumin
+                    Deng</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingPoster">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsePoster" aria-expanded="false" aria-controls="collapsePoster">
+                Poster Presentations
+              </button>
+            </h2>
+            <div id="collapsePoster" class="accordion-collapse collapse" aria-labelledby="headingPoster"
+              data-bs-parent="#papersAccordion">
+              <div class="accordion-body">
+                <ul>
+                  <li><strong> Towards Unified Alignment Between
+                      Agents, Humans, and Environment</strong>,
+                    <br>Zonghan Yang, An Liu, Zijun Liu, Kaiming
+                    Liu, Fangzhou Xiong, Yile Wang, Zeyuan Yang,
+                    Qingyuan Hu, XinRui Chen, Zhenhe Zhang, Fuwen
+                    Luo, Zhicheng Guo, Peng Li, Yang Liu
+                  </li>
+                  <li><strong> Self-Training Language Models in
+                      Arithmetic Reasoning</strong>, <br>Marek
+                    Kadlčík, Michal Štefánik, Ondrej Sotolar,
+                    Vlastimil Martinek</li>
+                  <li><strong> R2E: Turning any Github Repository
+                      into a Programming Agent Test
+                      Environment</strong>, <br>Naman Jain, Manish
+                    Shetty, Tianjun Zhang, King Han, Koushik Sen,
+                    Ion Stoica</li>
+                  <li><strong> Lumos: Learning Agents with Unified
+                      Data, Modular Design, and Open-Source
+                      LLMs</strong>, <br>Da Yin, Faeze Brahman,
+                    Abhilasha Ravichander, Khyathi Chandu, Kai-Wei
+                    Chang, Yejin Choi, Bill Yuchen Lin</li>
+                  <li><strong> LEAGUE++: EMPOWERING CONTINUAL ROBOT
+                      LEARNING THROUGH GUIDED SKILL ACQUISITION WITH
+                      LARGE LANGUAGE MODELS</strong>, <br>Zhaoyi Li,
+                    Kelin Yu, Shuo Cheng, Danfei Xu</li>
+                  <li><strong> WavCraft: Audio Editing and
+                      Generation with Large Language
+                      Models</strong>, <br>Jinhua Liang, Huan Zhang,
+                    Haohe Liu, Yin Cao, Qiuqiang Kong, Xubo Liu,
+                    Wenwu Wang, Mark D Plumbley, Huy Phan, Emmanouil
+                    Benetos</li>
+                  <li><strong> SAGE: Bridging Semantic and
+                      Actionable Parts for Generalizable
+                      Manipulation of Articulated Objects</strong>,
+                    <br>Haoran Geng, Songlin Wei, Congyue Deng,
+                    Bokui Shen, He Wang, Leonidas Guibas
+                  </li>
+                  <li><strong> Simulating Opinion Dynamics with
+                      Networks of LLM-based Agents</strong>,
+                    <br>Yun-Shiuan Chuang, Agam Goyal, Nikunj
+                    Harlalka, Siddharth Suresh, Robert D. Hawkins,
+                    Sijia Yang, Dhavan V. Shah, Junjie Hu, Timothy
+                    T. Rogers
+                  </li>
+                  <li><strong> Agents: An Open-source Framework for
+                      Autonomous Language Agents</strong>,
+                    <br>Wangchunshu Zhou, Yuchen Eleanor Jiang, Long
+                    Li, Jialong Wu, Tiannan Wang, Shuai Wang, Jiamin
+                    Chen, Jintian Zhang, Jing Chen, Xiangru Tang,
+                    Peng Cui, Ningyu Zhang, Huajun Chen, Mrinmaya
+                    Sachan
+                  </li>
+                  <li><strong> A Human-Inspired Reading Agent with
+                      Gist Memory of Very Long Contexts</strong>,
+                    <br>Kuang-Huei Lee, Xinyun Chen, Hiroki Furuta,
+                    John Canny, Ian Fischer
+                  </li>
+                  <li><strong> The Agent Ohana: Designing Unified
+                      Data and Training Pipeline for Effective Agent
+                      Learning</strong>, <br>Jianguo Zhang, Tian
+                    Lan, Rithesh R N, Zhiwei Liu, Weiran Yao, Juntao
+                    Tan, Yihao Feng, Thai Quoc Hoang, Tulika Manoj
+                    Awalgaonkar, Liangwei Yang, Shelby Heinecke,
+                    Huan Wang, Juan Carlos Niebles, Silvio Savarese,
+                    Caiming Xiong</li>
+                  <li><strong> Can Large Language Models be Good
+                      Path Planners? A Benchmark and Investigation
+                      on Spatial-temporal Reasoning</strong>,
+                    <br>Mohamed Aghzal, Erion Plaku, Ziyu Yao
+                  </li>
+                  <li><strong> FinMem: A Performance-Enhanced LLM
+                      Trading Agent with Layered Memory and
+                      Character Design</strong>, <br>Haohang Li,
+                    Yangyang Yu, Zhi Chen, Yuechen Jiang, Yang Li,
+                    Denghui Zhang, Rong Liu, Jordan W. Suchow,
+                    Khaldoun Khashanah</li>
+                  <li><strong> ArCHer: Training Language Model
+                      Agents via Hierarchical Multi-Turn
+                      RL</strong>, <br>Yifei Zhou, Andrea Zanette,
+                    Jiayi Pan, Aviral Kumar, Sergey Levine</li>
+                  <li><strong> Beyond A*: Better LLM planning via
+                      Search Dynamics Bootstrapping</strong>,
+                    <br>Lucas Lehnert, Sainbayar Sukhbaatar, Paul
+                    McVay, Michael Rabbat, Yuandong Tian
+                  </li>
+                  <li><strong> A-CONECT: Designing AI-based
+                      Conversational Chatbot for Early Dementia
+                      Intervention</strong>, <br>Junyuan Hong,
+                    Wenqing Zheng, Han Meng, Siqi Liang, Anqing
+                    Chen, Hiroko H. Dodge, Jiayu Zhou, Zhangyang
+                    Wang</li>
+                  <li><strong> Agent Smith: A Single Image Can
+                      Jailbreak One Million Multimodal LLM Agents
+                      Exponentially Fast</strong>, <br>Xiangming Gu,
+                    Xiaosen Zheng, Tianyu Pang, Chao Du, Qian Liu,
+                    Ye Wang, Jing Jiang, Min Lin</li>
+                  <li><strong> Large Language Model Evaluation Via
+                      Multi AI Agents: Preliminary results</strong>,
+                    <br>Zeeshan Rasheed, Muhammad Waseem, Kari
+                    Systä, Pekka Abrahamsson
+                  </li>
+                  <li><strong> Towards General Computer Control: A
+                      Multimodal Agent for Red Dead Redemption II as
+                      a Case Study</strong>, <br>Weihao Tan, Ziluo
+                    Ding, Wentao Zhang, Boyu Li, Bohan Zhou, Junpeng
+                    Yue, Haochong Xia, Jiechuan Jiang, Longtao
+                    Zheng, Xinrun Xu, Yifei Bi, Pengjie Gu, Xinrun
+                    Wang, Börje F. Karlsson, Bo An, Zongqing Lu</li>
+                  <li><strong> GPT-4V(ision) is a Generalist Web
+                      Agent, if Grounded</strong>, <br>Boyuan Zheng,
+                    Boyu Gou, Jihyung Kil, Huan Sun, Yu Su</li>
+                  <li><strong> OpenAgents: An Open Platform for
+                      Language Agents in the Wild</strong>,
+                    <br>Tianbao Xie, Fan Zhou, Zhoujun Cheng, Peng
+                    Shi, Luoxuan Weng, Yitao Liu, Toh Jing Hua,
+                    Junning Zhao, Qian Liu, Che Liu, Zeyu Liu,
+                    Yiheng Xu, Hongjin SU, Dongchan Shin, Caiming
+                    Xiong, Tao Yu
+                  </li>
+                  <li><strong> OpenFMNav: Towards Open-Set Zero-Shot
+                      Object Navigation via Vision-Language
+                      Foundation Models</strong>, <br>Yuxuan Kuang,
+                    Hai Lin, Meng Jiang</li>
+                  <li><strong> TravelPlanner: A Benchmark for
+                      Real-World Planning with Language
+                      Agents</strong>, <br>Jian Xie, Kai Zhang,
+                    Jiangjie Chen, Tinghui Zhu, Renze Lou, Yuandong
+                    Tian, Yanghua Xiao, Yu Su</li>
+                  <li><strong> Empowering Autonomous Driving with
+                      Large Language Models: A Safety
+                      Perspective</strong>, <br>Yixuan Wang, Ruochen
+                    Jiao, Simon Sinong Zhan, Chengtian Lang, Chao
+                    Huang, Zhaoran Wang, Zhuoran Yang, Qi Zhu</li>
+                  <li><strong> REX: Rapid Exploration and
+                      eXploitation for AI agents</strong>,
+                    <br>Rithesh R N, Shelby Heinecke, Juan Carlos
+                    Niebles, Zhiwei Liu, Le Xue, Weiran Yao, Yihao
+                    Feng, Zeyuan Chen, Akash Gokul, Devansh Arpit,
+                    Ran Xu, Phil L Mui, Huan Wang, Caiming Xiong,
+                    Silvio Savarese
+                  </li>
+                  <li><strong> Towards Natural Language-Driven
+                      Industrial Assembly Using Foundation
+                      Models</strong>, <br>Omkar Joglekar, Shir
+                    Kozlovsky, Tal Lancewicki, Vladimir Tchuiev,
+                    Zohar Feldman, Dotan Di Castro</li>
+                  <li><strong> Mobile-Agent: Autonomous Multi-Modal
+                      Mobile Device Agent with Visual
+                      Perception</strong>, <br>Junyang Wang, Haiyang
+                    Xu, Jiabo Ye, Ming Yan, Weizhou Shen, Ji Zhang,
+                    Fei Huang, Jitao Sang</li>
+                  <li><strong> Exposing Limitations of Language
+                      Model Agents in Sequential-Task Compositions
+                      on the Web</strong>, <br>Hiroki Furuta, Yutaka
+                    Matsuo, Aleksandra Faust, Izzeddin Gur</li>
+                  <li><strong> LLM Reasoners: New Evaluation,
+                      Library, and Analysis of Step-by-Step
+                      Reasoning with Large Language Models</strong>,
+                    <br>Shibo Hao, Yi Gu, Haotian Luo, Tianyang Liu,
+                    Xiyan Shao, Xinyuan Wang, Shuhua Xie, Haodi Ma,
+                    Adithya Samavedhi, Qiyue Gao, Zhen Wang, Zhiting
+                    Hu
+                  </li>
+                  <li><strong> R-Judge: Benchmarking Safety Risk
+                      Awareness for LLM Agents</strong>, <br>Tongxin
+                    Yuan, Zhiwei He, Lingzhong Dong, Yiming Wang,
+                    Ruijie Zhao, Tian Xia, Lizhen Xu, Binglin Zhou,
+                    Li Fangqi, Zhuosheng Zhang, Rui Wang, Gongshen
+                    Liu</li>
+                  <li><strong> LLF-Bench: Benchmark for Interactive
+                      Learning from Language Feedback</strong>,
+                    <br>Ching-An Cheng, Andrey Kolobov, Dipendra
+                    Misra, Allen Nie, Adith Swaminathan
+                  </li>
+                  <li><strong> LLM-Deliberation: Evaluating LLMs
+                      with Interactive Multi-Agent Negotiation
+                      Game</strong>, <br>Sahar Abdelnabi, Amr Gomaa,
+                    Sarath Sivaprasad, Lea Schönherr, Mario
+                    Fritz</li>
+                  <li><strong> Is it Possible to Edit Large Language
+                      Models Robustly?</strong>, <br>Xinbei Ma,
+                    Tianjie Ju, Jiyang Qiu, Zhuosheng Zhang, hai
+                    zhao, lifeng Liu, Yulong Wang</li>
+                  <li><strong> Agent Instructs Large Language Models
+                      to be General Zero-Shot Reasoners</strong>,
+                    <br>Nicholas Crispino, Kyle Montgomery, Fankun
+                    Zeng, Dawn Song, Chenguang Wang
+                  </li>
+                  <li><strong> WorkArena: How Capable are Web Agents
+                      at Solving Common Knowledge Work
+                      Tasks?</strong>, <br>Alexandre Drouin, Maxime
+                    Gasse, Massimo Caccia, Issam H. Laradji, Manuel
+                    Del Verme, Tom Marty, David Vazquez, Nicolas
+                    Chapados, Alexandre Lacoste</li>
+                  <li><strong> Corex: Pushing the Boundaries of
+                      Complex Reasoning through Multi-Model
+                      Collaboration</strong>, <br>Qiushi Sun,
+                    Zhangyue Yin, Xiang Li, Zhiyong Wu, Xipeng Qiu,
+                    Lingpeng Kong</li>
+                  <li><strong> ProtAgents: Protein discovery via
+                      large language model multi-agent
+                      collaborations combining physics and machine
+                      learning</strong>, <br>Alireza Ghafarollahi,
+                    Markus Buehler</li>
+                  <li><strong> Hierarchical Auto-Organizing System
+                      for Open-Ended Multi-Agent
+                      Navigation</strong>, <br>Zhonghan Zhao, Kewei
+                    Chen, Dongxu Guo, Wenhao Chai, Tian Ye, Yanting
+                    Zhang, Gaoang Wang</li>
+                  <li><strong> EHRAgent: Code Empowers Large
+                      Language Models for Few-shot Complex Tabular
+                      Reasoning on Electronic Health
+                      Records</strong>, <br>Wenqi Shi, Ran Xu,
+                    Yuchen Zhuang, Yue Yu, Jieyu Zhang, Hang Wu,
+                    Yuanda Zhu, Joyce C. Ho, Carl Yang, May Dongmei
+                    Wang</li>
+                  <li><strong> Uncertainty of Thoughts:
+                      Uncertainty-Aware Planning Enhances
+                      Information Seeking in Large Language
+                      Models</strong>, <br>Zhiyuan Hu, Chumin Liu,
+                    Xidong Feng, Yilun Zhao, See-Kiong Ng, Anh Tuan
+                    Luu, Junxian He, Pang Wei Koh, Bryan Hooi</li>
+                  <li><strong> TaskBench: Benchmarking Large
+                      Language Models for Task Automation</strong>,
+                    <br>Yongliang Shen, Kaitao Song, Xu Tan, Wenqi
+                    Zhang, Kan Ren, Siyu Yuan, Weiming Lu, Dongsheng
+                    Li, Yueting Zhuang
+                  </li>
+                  <li><strong> SELF-IMAGINE: Effective Unimodal
+                      Reasoning with Multimodal Models using
+                      Self-Imagination</strong>, <br>Syeda Nahida
+                    Akter, Aman Madaan, Sangwu Lee, Yiming Yang,
+                    Eric Nyberg</li>
+                  <li><strong> BioDiscoveryAgent: An AI Agent for
+                      Designing Genetic Perturbation
+                      Experiments</strong>, <br>Yusuf H Roohani,
+                    Jian Vora, Qian Huang, Percy Liang, Jure
+                    Leskovec</li>
+                  <li><strong> MAGIC: INVESTIGATION OF LARGE
+                      LANGUAGE MODEL POWERED MULTI-AGENT IN
+                      COGNITION, ADAPTABILITY, RATIONALITY AND
+                      COLLABORATION</strong>, <br>Lin Xu, Zhiyuan
+                    Hu, Daquan Zhou, Hongyu Ren, Zhen Dong, Kurt
+                    Keutzer, See-Kiong Ng, Jiashi Feng</li>
+                  <li><strong> Do LLM Agents Have Regret? A Case
+                      Study in Online Learning and Games</strong>,
+                    <br>Chanwoo Park, Xiangyu Liu, Asuman E.
+                    Ozdaglar, Kaiqing Zhang
+                  </li>
+                  <li><strong> Prioritizing Safeguarding Over
+                      Autonomy: Risks of LLM Agents for
+                      Science</strong>, <br>Xiangru Tang, Qiao Jin,
+                    Kunlun Zhu, Tongxin Yuan, Yichi Zhang,
+                    Wangchunshu Zhou, Meng Qu, Yilun Zhao, Jian
+                    Tang, Zhuosheng Zhang, Arman Cohan, Zhiyong Lu,
+                    Mark Gerstein</li>
+                  <li><strong> Expressing and Exploiting Parallelism
+                      in Language Model Decoding</strong>, <br>Tian
+                    Jin, Ellie Y Cheng, Michael Carbin</li>
+                  <li><strong> Towards Self-Improving Language
+                      Models for Code Generation</strong>,
+                    <br>Michaël Defferrard, Corrado Rainone, David
+                    W. Zhang, Blazej Manczak, Natasha Butt, Taco
+                    Cohen
+                  </li>
+                  <li><strong> MathChat: Converse to Tackle
+                      Challenging Math Problems with LLM
+                      Agents</strong>, <br>Yiran Wu, Feiran Jia,
+                    Shaokun Zhang, Hangyu Li, Erkang Zhu, Yue Wang,
+                    Yin Tat Lee, Richard Peng, Qingyun Wu, Chi
+                    Wang</li>
+                  <li><strong> L3GO: Language Agents with
+                      Chain-of-3D-Thoughts for Generating
+                      Unconventional Objects</strong>, <br>Yutaro
+                    Yamada, Khyathi Chandu, Bill Yuchen Lin, Jack
+                    Hessel, Ilker Yildirim, Yejin Choi</li>
+                  <li><strong> An Embodied Generalist Agent in 3D
+                      World</strong>, <br>Jiangyong Huang, Silong
+                    Yong, Xiaojian Ma, Xiongkun Linghu, Puhao Li,
+                    Yan Wang, Qing Li, Song-Chun Zhu, Baoxiong Jia,
+                    Siyuan Huang</li>
+                  <li><strong> Agent-Pro: Learning to Evolve via
+                      Policy-Level Reflection and
+                      Optimization</strong>, <br>Wenqi Zhang, Ke
+                    Tang, Hai Wu, Mengna Wang, Yongliang Shen,
+                    Guiyang Hou, Zeqi Tan, Peng Li, Yueting Zhuang,
+                    Weiming Lu</li>
+                  <li><strong> Recursive Speculative Decoding:
+                      Accelerating LLM Inference via Sampling
+                      Without Replacement</strong>, <br>Wonseok
+                    Jeon, Mukul Gagrani, Raghavv Goel, Junyoung
+                    Park, Mingu Lee, Christopher Lott</li>
+                  <li><strong> VisualWebArena: Evaluating Multimodal
+                      Agents on Realistic Visual Web Tasks</strong>,
+                    <br>Jing Yu Koh, Robert Lo, Lawrence Jang,
+                    Vikram Duvvur, Ming Chong Lim, Po-Yu Huang,
+                    Graham Neubig, Shuyan Zhou, Ruslan
+                    Salakhutdinov, Daniel Fried
+                  </li>
+                  <li><strong> HELPER-X: A Unified Instructable
+                      Embodied Agent to Tackle Four Interactive
+                      Vision-Language Domains with Memory-Augmented
+                      Language Models</strong>, <br>Gabriel Herbert
+                    Sarch, Sahil Somani, Raghav Kapoor, Michael J.
+                    Tarr, Katerina Fragkiadaki</li>
+                  <li><strong> Controlling Large Language
+                      Model-based Agents for Large-Scale
+                      Decision-Making: An Actor-Critic
+                      Approach</strong>, <br>Bin Zhang, Hangyu Mao,
+                    Jingqing Ruan, Ying Wen, Yang Li, Shao Zhang,
+                    Zhiwei Xu, Dapeng Li, Ziyue Li, Rui Zhao, Lijuan
+                    Li, Guoliang Fan</li>
+                  <li><strong> Plan-Seq-Learn: Language Model Guided
+                      RL for Solving Long Horizon Robotics
+                      Tasks</strong>, <br>Murtaza Dalal, Tarun
+                    Chiruvolu, Devendra Singh Chaplot, Ruslan
+                    Salakhutdinov</li>
+                  <li><strong> Adapting Uni-Modal Language Models
+                      for Dense Multi-Modal Co-Reference Resolution
+                      using Parameter Augmentation</strong>,
+                    <br>Samuel Osebe, Prashan Wanigasekara, Thanh
+                    Tran, Thomas Gueudre
+                  </li>
+                  <li><strong> Preference-Conditioned
+                      Language-Guided Abstraction</strong>, <br>Andi
+                    Peng, Andreea Bobu, Belinda Z. Li, Theodore
+                    Sumers, Ilia Sucholutsky, Nishanth Kumar, Thomas
+                    L. Griffiths, Julie Shah</li>
+                  <li><strong> S-Agent: self-organizing agents in
+                      open-ended environment</strong>, <br>Jiaqi
+                    Chen, Yuxian Jiang, Jiachen Lu, Li Zhang</li>
+                  <li><strong> Efficient Human-AI Coordination via
+                      Preparatory Language-based
+                      Convention</strong>, <br>Cong Guan, Lichao
+                    Zhang, Chunpeng Fan, Yi-Chen Li, Feng Chen, Lihe
+                    Li, Yunjia Tian, Lei Yuan, Yang Yu</li>
+                  <li><strong> SeeClick: Harnessing GUI Grounding
+                      for Advanced Visual GUI Agents</strong>,
+                    <br>Kanzhi Cheng, Qiushi Sun, Yougang Chu,
+                    Fangzhi Xu, Li YanTao, Jianbing Zhang, Zhiyong
+                    Wu
+                  </li>
+                  <li><strong> The ART of LLM Refinement: Ask,
+                      Refine, Trust</strong>, <br>Kumar
+                    Shridhar</li>
+                  <li><strong> SceneCraft: An LLM Agent for
+                      Synthesizing 3D Scene as Blender
+                      Code</strong>, <br>Ziniu Hu</li>
+                  <li><strong> LangProp: A code optimization
+                      framework using Large Language Models applied
+                      to driving</strong>, <br>Shu Ishida, Gianluca
+                    Corrado, George Fedoseev, Hudson Yeo, Lloyd
+                    Russell, Jamie Shotton, Joao F. Henriques,
+                    Anthony Hu</li>
+                  <li><strong> FL-TAC: Enhanced Fine-Tuning in
+                      Federated Learning via Low-Rank, Task-Specific
+                      Adapter Clustering</strong>, <br>Siqi Ping,
+                    Yuzhu Mao, Yang Liu, Xiao-Ping Zhang, Wenbo
+                    Ding</li>
+                  <li><strong> EcoAssistant: Using LLM Assistants
+                      More Affordably and Accurately</strong>,
+                    <br>Jieyu Zhang, Ranjay Krishna, Ahmed Hassan
+                    Awadallah, Chi Wang
+                  </li>
+                  <li><strong> IntentGPT: Few-shot Intent Discovery
+                      with Large Language Models</strong>, <br>Juan
+                    A. Rodriguez, Nicholas Botzer, David Vazquez,
+                    Christopher Pal, Marco Pedersoli, Issam H.
+                    Laradji</li>
+                  <li><strong> Language-guided Skill Learning with
+                      Temporal Variational Inference</strong>,
+                    <br>Haotian Fu, Pratyusha Sharma, Elias
+                    Stengel-Eskin, George Konidaris, Nicolas Le
+                    Roux, Marc-Alexandre Côté, Xingdi Yuan
+                  </li>
+                  <li><strong> Decision-Oriented Dialogue for
+                      Human-AI Collaboration</strong>, <br>Jessy
+                    Lin, Nicholas Tomlin, Jacob Andreas, Jason
+                    Eisner</li>
+                  <li><strong> Making Retrieval-Augmented Language
+                      Models Robust to Irrelevant Context</strong>,
+                    <br>Ori Yoran, Tomer Wolfson, Ori Ram, Jonathan
+                    Berant
+                  </li>
+                  <li><strong> MedAgents: Large Language Models as
+                      Collaborators for Zero-shot Medical
+                      Reasoning</strong>, <br>Xiangru Tang, Anni
+                    Zou, Zhuosheng Zhang, Ziming Li, Yilun Zhao,
+                    Xingyao Zhang, Arman Cohan, Mark Gerstein</li>
+                  <li><strong> Collaborative LLM-Agents for Editable
+                      Driving Scene Simulation</strong>, <br>Yuxi
+                    Wei, Zi Wang, Yifan Lu, Chenxin Xu, Changxing
+                    Liu, Hao Zhao, Siheng Chen, Yanfeng Wang</li>
+                  <li><strong> WebLINX: Real-World Website
+                      Navigation with Multi-Turn Dialogue</strong>,
+                    <br>Xing Han Lu, Zdeněk Kasner, Siva Reddy
+                  </li>
+                  <li><strong> The Wisdom of Partisan Crowds:
+                      Comparing Collective Intelligence in Humans
+                      and LLM-based Agents</strong>, <br>Yun-Shiuan
+                    Chuang, Nikunj Harlalka, Siddharth Suresh, Agam
+                    Goyal, Robert D. Hawkins, Sijia Yang, Dhavan V.
+                    Shah, Junjie Hu, Timothy T. Rogers</li>
+                  <li><strong> BOLAA: BENCHMARKING AND ORCHESTRATING
+                      LLM AUTONOMOUS AGENTS</strong>, <br>Zhiwei
+                    Liu, Weiran Yao, Jianguo Zhang, Le Xue, Shelby
+                    Heinecke, Rithesh R N, Yihao Feng, Zeyuan Chen,
+                    Juan Carlos Niebles, Devansh Arpit, Ran Xu, Phil
+                    L Mui, Huan Wang, Caiming Xiong, Silvio
+                    Savarese</li>
+                  <li><strong> Boosting Task Planning and Tool Usage
+                      of Large Language Model-based Agents in
+                      Real-world Systems</strong>, <br>Yilun Kong,
+                    Jingqing Ruan, YiHong Chen, Bin Zhang, Tianpeng
+                    Bao, shi shiwei, du guo qing, xiaoru hu, Hangyu
+                    Mao, Ziyue Li, Xingyu Zeng, Rui Zhao, Xueqian
+                    Wang</li>
+                  <li><strong> Self-Alignment of Large Language
+                      Models via Multi-Agent Social
+                      Simulation</strong>, <br>Xianghe Pang, Shuo
+                    Tang, Rui Ye, Yuxin Xiong, Bolun Zhang, Yanfeng
+                    Wang, Siheng Chen</li>
+                  <li><strong> If LLM Is the Wizard, Then Code Is
+                      the Wand: A Survey on How Code Empowers Large
+                      Language Models to Serve as Intelligent
+                      Agents</strong>, <br>Ke Yang, Jiateng Liu,
+                    John Wu, Chaoqi Yang, Yi Fung, Sha Li, Zixuan
+                    Huang, Xu Cao, Xingyao Wang, Heng Ji, ChengXiang
+                    Zhai</li>
+                  <li><strong> ReST meets ReAct: Self-Improvement
+                      for Multi-Step Reasoning LLM Agent</strong>,
+                    <br>Renat Aksitov, Sobhan Miryoosefi, Zonglin
+                    Li, Daliang Li, Sheila Babayan, Kavya Kopparapu,
+                    Zachary Fisher, Ruiqi Guo, Sushant Prakash,
+                    Pranesh Srinivasan, Manzil Zaheer, Felix Yu,
+                    Sanjiv Kumar
+                  </li>
+                  <li><strong> Are Machines Better at Slow Thinking?
+                      Unveiling Human-Machine Inference Gaps in
+                      Entailment Verification</strong>, <br>Soumya
+                    Sanyal, Tianyi Xiao, Jiacheng Liu, Wenya Wang,
+                    Xiang Ren</li>
+                  <li><strong> Limitations of Agents Simulated by
+                      Predictive Models</strong>, <br>Raymond
+                    Douglas, Jacek Karwowski, Chan Bae, Andis
+                    Draguns, Victoria Krakovna</li>
+                  <li><strong> OS-Copilot: Towards Generalist
+                      Computer Agents with
+                      Self-Improvement</strong>, <br>Zhiyong Wu,
+                    Chengcheng Han, Zichen Ding, Zhenmin Weng,
+                    Zhoumianze Liu, Shunyu Yao, Tao Yu, Lingpeng
+                    Kong</li>
+                  <li><strong> EASYTOOL: Enhancing LLM-based Agents
+                      with Concise Tool Instruction</strong>,
+                    <br>Siyu Yuan, Kaitao Song, Jiangjie Chen, Xu
+                    Tan, Yongliang Shen, Kan Ren, Dongsheng Li,
+                    Deqing Yang
+                  </li>
+                  <li><strong> FLASK: Fine-grained Language Model
+                      Evaluation based on Alignment Skill
+                      Sets</strong>, <br>Seonghyeon Ye, Doyoung Kim,
+                    Sungdong Kim, Hyeonbin Hwang, Seungone Kim,
+                    Yongrae Jo, James Thorne, Juho Kim, Minjoon
+                    Seo</li>
+                  <li><strong> Language Agent Tree Search Unifies
+                      Reasoning Acting and Planning in Language
+                      Models</strong>, <br>Andy Zhou, Kai Yan,
+                    Michal Shlapentokh-Rothman, Haohan Wang,
+                    Yu-Xiong Wang</li>
+                  <li><strong> On the Road with GPT-4V(ision):
+                      Explorations of Utilizing Visual-Language
+                      Model as Autonomous Driving Agent</strong>,
+                    <br>Licheng Wen, Xuemeng Yang, Daocheng Fu,
+                    Xiaofeng Wang, Pinlong Cai, Xin Li, Tao MA,
+                    Yingxuan Li, Linran XU, Dengke Shang, Zheng Zhu,
+                    Shaoyan Sun, Yeqi BAI, Xinyu Cai, Min Dou,
+                    Shuanglu Hu, Botian Shi, Yu Qiao
+                  </li>
+                  <li><strong> Bring Your Own KG: Self-Supervised
+                      Program Synthesis for Zero-Shot KGQA</strong>,
+                    <br>Dhruv Agarwal, Rajarshi Das, Sopan Khosla,
+                    Rashmi Gangadharaiah
+                  </li>
+                  <li><strong> Open-TI: Open Traffic Intelligence
+                      with Augmented Language Model</strong>,
+                    <br>Longchao Da, Kuan-Ru Liou, Tiejin Chen,
+                    Xuesong Zhou, Xiangyong Luo, Yezhou Yang, Hua
+                    Wei
+                  </li>
+                  <li><strong> AgentBoard: An Analytical Evaluation
+                      Board of Multi-turn LLM Agents</strong>,
+                    <br>Chang Ma, Junlei Zhang, Zhihao Zhu, Cheng
+                    Yang, Yujiu Yang, Yaohui Jin, Zhenzhong Lan,
+                    Lingpeng Kong, Junxian He
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- End Accepted Papers Section -->
+
+    <!-- ======= Organization Section ======= -->
+    <section id="org" class="team">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Organization</h2>
+          <p>Workshop Organizers</p>
+        </div>
+
+        <div class="section-title" data-aos="zoom-out">
+          <h3>Organizing Commitee</h3>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up">
+              <div class="member-img">
+                <img src="assets/img/organizer/zhenfei.jpg" class="img-fluid" style="width: 100%;height: 30%;" alt>
+              </div>
+              <div class="member-info">
+                <h4><a href="https://yinzhenfei.github.io/">Zhenfei Yin</a></h4>
+                <strong>Ph.D. student, University of Sydney</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up">
+              <div class="member-img">
+                <img src="assets/img/organizer/huyue.jpg" class="img-fluid" style="width: 100%;height: 30%;" alt>
+              </div>
+              <div class="member-info">
+                <h4><a href="https://phyllish.github.io/">Yue Hu</a></h4>
+                <strong>Postdoctoral fellow, University of Michigan</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up">
+              <div class="member-img">
+                <img src="assets/img/organizer/chensiheng.jpg" class="img-fluid" style="width: 100%;height: 30%;" alt>
+              </div>
+              <div class="member-info">
+                <h4><a href="https://siheng-chen.github.io/">Siheng Chen</a></h4>
+                <strong>Tenure-track associate professor, Shanghai Jiao Tong University</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up">
+              <div class="member-img">
+                <img src="assets/img/organizer/Bucher.png" class="img-fluid" style="width: 100%;height: 30%;" alt>
+              </div>
+              <div class="member-info">
+                <h4><a href="https://bucherb.github.io/">Bernadette Bucher</a></h4>
+                <strong>Assistant Professor, University of Michigan</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up">
+              <div class="member-img">
+                <img src="assets/img/organizer/Juan Carlos Niebles.png" class="img-fluid" style="width: 100%;height: 30%;" alt>
+              </div>
+              <div class="member-info">
+                <h4><a href="https://www.niebles.net/">Juan Carlos Niebles</a></h4>
+                <strong>Adjunct Professor, Stanford</strong>
+              </div>
+            </div>
+          </div>
+
+          <!-- 空的div用于创建换行 -->
+          <!-- <div class="clearfix" style="break-after: always;"></div> -->
+
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up">
+              <div class="member-img">
+                <img src="assets/img/organizer/dawn-berkeley.jpg" class="img-fluid" style="width: 100%;height: 30%;" alt>
+              </div>
+              <div class="member-info">
+                <h4><a href="https://dawnsong.io/">Dawn Song</a></h4>
+                <strong>Professor, University of California, Berkeley</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up">
+              <div class="member-img">
+                <img src="assets/img/organizer/PhilipTorr.jpg" class="img-fluid" style="width: 100%;height: 30%;" alt>
+              </div>
+              <div class="member-info">
+                <h4><a href="https://scholar.google.com/citations?user=kPxa2w0AAAAJ&hl=zh-CN">Philip Torr</a></h4>
+                <strong>Professor, University of Oxford</strong>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- End Organization Section -->
+
+    <!-- ======= Reviewers Section ======= -->
+    <!-- <section id="reviewers" class="reviewers">
+      <div class="container">
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Program Committee</h2>
+        </div>
+        <div class="accordion" id="reviewersAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingReviewer">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseReviewer" aria-expanded="true" aria-controls="collapseReviewer">
+                Reviewers
+              </button>
+            </h2>
+            <div id="collapseReviewer" class="accordion-collapse collapse" aria-labelledby="headingReviewer"
+              data-bs-parent="#papersAccordion">
+              <div class="accordion-body">
+
+                <div class="row">
+                  <div class="col-lg-12">
+                    <ul class="list-unstyled">
+                      <li>Yuelyu Ji, <it>University of
+                          Pittsburgh</it>
+                      </li>
+                      <li>Hangyu Mao, <it>Sensetime
+                          Research</it>
+                      </li>
+                      <li>Boyuan Zheng, <it>Ohio State University,
+                          Columbus</it>
+                      </li>
+                      <li>Siyu Yuan, <it>Fudan University</it>
+                      </li>
+                      <li>Xin Cong, <it>Tsinghua University,
+                          Tsinghua
+                          University</it>
+                      </li>
+                      <li>Markus Buehler, <it>Massachusetts
+                          Institute of
+                          Technology</it>
+                      </li>
+                      <li>Lin Xu, <it>National University of
+                          Singapore</it>
+                      </li>
+                      <li>Chenfei Yuan, <it>Department of Computer
+                          Science
+                          and Technology, Tsinghua
+                          University</it>
+                      </li>
+                      <li>Haochen Vector Zhao, <it>Peking
+                          University</it>
+                      </li>
+                      <li>Feiran Jia, <it>Pennsylvania State
+                          University</it>
+                      </li>
+                      <li>Yao Yao, <it>Shanghai Jiaotong
+                          University</it>
+                      </li>
+                      <li>Zhang Ruichen, <it>Nanyang Technological
+                          University</it>
+                      </li>
+                      <li>Mathieu Ravaut, <it>Nanyang Technological
+                          University</it>
+                      </li>
+                      <li>Zirui Zhao, <it>national university of
+                          singaore,
+                          National University of Singapore</it>
+                      </li>
+                      <li>Jialong Wu, <it>Southeast
+                          University</it>
+                      </li>
+                      <li>Rithesh R N, <it>SalesForce.com</it>
+                      </li>
+                      <li>Juntao Tan, <it>Rutgers
+                          University</it>
+                      </li>
+                      <li>Ting Chen, <it>University of Electronic
+                          Science
+                          and Technology of China</it>
+                      </li>
+                      <li>Yun-Shiuan Chuang, <it>University of
+                          Wisconsin -
+                          Madison</it>
+                      </li>
+                      <li>Jiageng Mao, <it>University of Southern
+                          California</it>
+                      </li>
+                      <li>Yongliang Shen, <it>Microsoft</it>
+                      </li>
+                      <li>Zhiruo Wang, <it>Carnegie Mellon
+                          University</it>
+                      </li>
+                      <li>Jiuzhou Han, <it>Monash
+                          University</it>
+                      </li>
+                      <li>Kaixin Ma, <it>Tencent AI Lab</it>
+                      </li>
+                      <li>Hao Peng, <it>Department of Computer
+                          Science,
+                          University of Illinois
+                          Urbana-Champaign</it>
+                      </li>
+                      <li>Jian Guan, <it>Tsinghua University,
+                          Tsinghua
+                          University</it>
+                      </li>
+                      <li>Shaoguang Mao, <it>Microsoft</it>
+                      </li>
+                      <li>Olivia Watkins, <it>University of
+                          California
+                          Berkeley</it>
+                      </li>
+                      <li>Jiateng Liu, <it>Department of Computer
+                          Science</it>
+                      </li>
+                      <li>Qian Huang, <it>Google</it>
+                      </li>
+                      <li>Haozhe Zhao, <it>Peking
+                          University</it>
+                      </li>
+                      <li>Yecheng Jason Ma, <it>University of
+                          Pennsylvania</it>
+                      </li>
+                      <li>Zhenran Xu, <it>Harbin Institute of
+                          Technology,
+                          Shenzhen</it>
+                      </li>
+                      <li>Zhongshen Zeng, <it>Department of Computer
+                          Science
+                          and Engineering, The Chinese University of
+                          Hong
+                          Kong</it>
+                      </li>
+                      <li>Kuang-Huei Lee, <it>Google</it>
+                      </li>
+                      <li>Chunyuan Deng, <it>Georgia Institute of
+                          Technology</it>
+                      </li>
+                      <li>Meghana Moorthy Bhat, <it>Salesforce
+                          Research</it>
+                      </li>
+                      <li>Tianjun Zhang, <it>University of
+                          California
+                          Berkeley</it>
+                      </li>
+                      <li>Jiangyong Huang, <it>Peking
+                          University</it>
+                      </li>
+                      <li>Wenshan Wu, <it>Microsoft</it>
+                      </li>
+                      <li>Kimin Lee, <it>Korea Advanced Institute of
+                          Science
+                          & Technology</it>
+                      </li>
+                      <li>Daquan Zhou, <it>Bytedance</it>
+                      </li>
+                      <li>Haoqi Yuan, <it>Peking
+                          University</it>
+                      </li>
+                      <li>Osbert Bastani, <it>University of
+                          Pennsylvania</it>
+                      </li>
+                      <li>Shuyan Zhou, <it>Carnegie Mellon
+                          University</it>
+                      </li>
+                      <li>Agam Goyal, <it>University of Wisconsin -
+                          Madison</it>
+                      </li>
+                      <li>Gang Qiao, <it>Siemens
+                          Healthineers</it>
+                      </li>
+                      <li>Xun Wang, <it>Microsoft</it>
+                      </li>
+                      <li>Sahitya Potluri, <it>Google</it>
+                      </li>
+                      <li>Xingyao Wang, <it>Department of Computer
+                          Science,
+                          University of Illinois
+                          Urbana-Champaign</it>
+                      </li>
+                      <li>Wenyue Hua, <it>Rutgers University, New
+                          Brunswick</it>
+                      </li>
+                      <li>Younggyo Seo, <it>Dyson</it>
+                      </li>
+                      <li>Zhangcheng Qiang, <it>Australian National
+                          University</it>
+                      </li>
+                      <li>Boyu Gou, <it>Ohio State University,
+                          Columbus</it>
+                      </li>
+                      <li>Jian Xie, <it>Fudan University</it>
+                      </li>
+                      <li>Ziniu Hu, <it>California Institute of
+                          Technology</it>
+                      </li>
+                      <li>Yichi Zhang, <it>Peking
+                          University</it>
+                      </li>
+                      <li>Fangkai Jiao, <it>Nanyang Technological
+                          University</it>
+                      </li>
+                      <li>Yangyi Chen, <it>School of Computer
+                          Science,
+                          University of Illinois at
+                          Urbana-Champaign</it>
+                      </li>
+                      <li>Ravi Pandya, <it>Carnegie Mellon
+                          University</it>
+                      </li>
+                      <li>Zelong Li, <it>Rutgers University, New
+                          Brunswick</it>
+                      </li>
+                      <li>Jiayuan Mao, <it>Massachusetts Institute
+                          of
+                          Technology</it>
+                      </li>
+                      <li>Bohan Lyu, <it>Tsinghua
+                          University</it>
+                      </li>
+                      <li>Senbao Shi, <it>Harbin Institute of
+                          Technology</it>
+                      </li>
+                      <li>Kaitao Song, <it>Microsoft</it>
+                      </li>
+                      <li>Nikunj Harlalka, <it>University of
+                          Wisconsin -
+                          Madison</it>
+                      </li>
+                      <li>Zhihan Liu, <it>Northwestern
+                          University</it>
+                      </li>
+                      <li>Haochun Wang, <it>Harbin Institute of
+                          Technology</it>
+                      </li>
+                      <li>Chi Zhang, <it>Tencent </it>
+                      </li>
+                      <li>Chang Gao, <it>The Chinese University of
+                          Hong
+                          Kong</it>
+                      </li>
+                      <li>Kun Shao, <it>Huawei Noah's Ark
+                          Lab</it>
+                      </li>
+                      <li>Lanqing Li, <it>Zhejiang Lab</it>
+                      </li>
+                      <li>Ziyuan Qin, <it>Case Western Reserve
+                          University</it>
+                      </li>
+                      <li>Chengjie Zheng, <it>University of
+                          Massachusetts
+                          Boston</it>
+                      </li>
+                      <li>Bharat Prakash, <it>University of
+                          Maryland,
+                          Baltimore County</it>
+                      </li>
+                      <li>Yanjun Shao, <it>Fudan
+                          University</it>
+                      </li>
+                      <li>Amrita Saha, <it>SalesForce.com</it>
+                      </li>
+                      <li>Ke Yang, <it>Department of Computer
+                          Science</it>
+                      </li>
+                      <li>Zhao Xu, <it>Hong Kong University of
+                          Science and
+                          Technology</it>
+                      </li>
+                      <li>Ruochen Zhao, <it>Nanyang Technological
+                          University</it>
+                      </li>
+                      <li>Chaoqi Yang, <it>University of Illinois
+                          Urbana
+                          Champaign</it>
+                      </li>
+                      <li>Hao Wang, <it>Google</it>
+                      </li>
+                      <li>Yangyang Yu, <it>Stevens Institute of
+                          Technology</it>
+                      </li>
+                      <li>Shuofei Qiao, <it>Zhejiang
+                          University</it>
+                      </li>
+                      <li>Hailin Chen, <it>National Technological
+                          University</it>
+                      </li>
+                      <li>Yuan Yao, <it>Nanjing University</it>
+                      </li>
+                      <li>Lei Liu, <it>The Chinese University of
+                          Hong Kong,
+                          Shenzhen</it>
+                      </li>
+                      <li>Yuechen Jiang, <it>Stevens Institute of
+                          Technology</it>
+                      </li>
+                      <li>Pengguang Chen, <it>SmartMore</it>
+                      </li>
+                      <li>Chuan Xiao, <it>Osaka University</it>
+                      </li>
+                      <li>Sha Li, <it>University of Illinois, Urbana
+                          Champaign</it>
+                      </li>
+                      <li>Wenqi Zhang, <it>Zhejiang
+                          University</it>
+                      </li>
+                      <li>Yilun Zhao, <it>Yale University</it>
+                      </li>
+                      <li>Kaikai An, <it>Peking University</it>
+                      </li>
+                      <li>Yunhao Yang, <it>University of Texas at
+                          Austin</it>
+                      </li>
+                      <li>Haohang Li, <it>Stevens Institute of
+                          Technology</it>
+                      </li>
+                      <li>Jianghao Zhang, <it>University of Michigan
+                          - Ann
+                          Arbor</it>
+                      </li>
+                      <li>Shruti Singh, <it>IIT
+                          Gandhinagar</it>
+                      </li>
+                      <li>Zhi Chen, <it>Stevens Institute of
+                          Technology</it>
+                      </li>
+                      <li>He Zhu, <it>Rutgers University</it>
+                      </li>
+                      <li>Allen Nie, <it>Stanford
+                          University</it>
+                      </li>
+                      <li>Shuzheng Si, <it>Peking
+                          University</it>
+                      </li>
+                      <li>Muhammad Waseem, <it>University of
+                          Jyväskylä</it>
+                      </li>
+                      <li>Jing Yu Koh, <it>Carnegie Mellon
+                          University</it>
+                      </li>
+                      <li>Kunlun Zhu, <it>Université de
+                          Montréal</it>
+                      </li>
+                      <li>Chengwei Qin, <it>Nanyang Technological
+                          University</it>
+                      </li>
+                      <li>Zengqing Wu, <it>Kyoto
+                          University</it>
+                      </li>
+                      <li>Vernon Bumgardner, <it>University of
+                          Kentucky</it>
+                      </li>
+                      <li>Chenyang Zhao, <it>Zhejiang Lab</it>
+                      </li>
+                      <li>Rong Liu, <it>Stevens Institute of
+                          Technology</it>
+                      </li>
+                      <li>Sihao Hu, <it>Georgia Institute of
+                          Technology</it>
+                      </li>
+                      <li>Srijan Bansal, <it>Carnegie Mellon
+                          University</it>
+                      </li>
+                      <li>Da Yin, <it>University of California, Los
+                          Angeles</it>
+                      </li>
+                      <li>Hung Le, <it>Salesforce Research</it>
+                      </li>
+                      <li>Enxhell Luzhnica, <it>Google</it>
+                      </li>
+                      <li>Michelle D Zhao, <it>CMU, Carnegie Mellon
+                          University</it>
+                      </li>
+                      <li>Yunfan Jiang, <it>Stanford
+                          University</it>
+                      </li>
+                      <li>Hongyang Du, <it>Nanyang Technological
+                          University</it>
+                      </li>
+                      <li>Jason Phang, <it>New York
+                          University</it>
+                      </li>
+                      <li>Xingxuan Li, <it>Nanyang Technological
+                          University</it>
+                      </li>
+                      <li>Mingqi Gao, <it>Peking
+                          University</it>
+                      </li>
+                      <li>Xiao Han, <it>Peking University</it>
+                      </li>
+                      <li>Haojie Pan, <it>Department of Computer
+                          Science and
+                          Engineering, Hong Kong University of
+                          Science and
+                          Technology</it>
+                      </li>
+                      <li>Pekka Abrahamsson, <it>Tampere
+                          University</it>
+                      </li>
+                      <li>Haibin Huang, <it>Kuaishou
+                          Technology</it>
+                      </li>
+                      <li>Yiming Zhang, <it>Tokyo Institute of
+                          Technology,
+                          Tokyo Institute of Technology</it>
+                      </li>
+                      <li>Baotian Hu, <it>Harbin Institute of
+                          Technology,
+                          Shenzhen</it>
+                      </li>
+                      <li>Yang Yuan, <it>Tsinghua University,
+                          Tsinghua
+                          University</it>
+                      </li>
+                      <li>Yixin Zhang, <it>Kyoto University, Kyoto
+                          University</it>
+                      </li>
+                      <li>Riccardo Cantini, <it>University of
+                          Calabria</it>
+                      </li>
+                      <li>Tiankai Hang, <it>Southeast
+                          University</it>
+                      </li>
+                      <li>Gongshen Liu, <it>Shanghai Jiao Tong
+                          University</it>
+                      </li>
+                      <li>Yuzhou Du, <it>Northwestern
+                          University</it>
+                      </li>
+                      <li>Xiaocheng Lu, <it>Hong Kong Polytechnic
+                          University</it>
+                      </li>
+                      <li>Sarang Gupta, <it>Asana</it>
+                      </li>
+                      <li>Inderjeet Jayakumar Nair, <it>University
+                          of
+                          Michigan - Ann Arbor</it>
+                      </li>
+                      <li>Gabrielle Kaili-May Liu, <it>Department of
+                          Computer Science, Yale
+                          University</it>
+                      </li>
+                      <li>Shuyuan Zheng, <it>Osaka
+                          University</it>
+                      </li>
+                      <li>Run Peng, <it>University of Michigan - Ann
+                          Arbor</it>
+                      </li>
+                      <li>Mira Moukheiber, <it>Massachusetts
+                          Institute of
+                          Technology</it>
+                      </li>
+                      <li>John Wu, <it>University of Illinois at
+                          Urbana-Champaign</it>
+                      </li>
+                      <li>Bin Liu, <it>Zhejiang Lab</it>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- End Reviewers Section -->
+
+
+
+
+    <!-- ======= Contact Section ======= -->
+    <!-- <section id="award" class="award">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Award</h2>
+        </div>
+        <div>
+          <h5>The Best Paper Award:
+            <br><br>
+            AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation
+
+            <br><br>
+            Qingyun Wu, Gagan Bansal, Jieyu Zhang, Yiran Wu, Beibin Li, Erkang Zhu, Li Jiang, Xiaoyun Zhang, Shaokun
+            Zhang, Jiale Liu, Ahmed Hassan Awadallah, Ryen W White, Doug Burger, Chi Wang
+
+          </h5>
+
+        </div>
+
+      </div>
+
+    </section> -->
+    <!-- End Contact Section -->
+
+
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Contact us</h2>
+        </div>
+        <div>
+          <h5>Email us at <a href="mailto:zhenfei.yin@sydney.edu.au">zhenfei.yin@sydney.edu.au</a>
+            | <a href="mailto:huyu@umich.edu">huyu@umich.edu</a>
+          </h5>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Contact Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <!-- <section id="sponsors" class="sponsors">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Sponsors</h2>
+        </div>
+
+        <p>
+          <a href="https://www.multion.ai/">MultiOn AI</a>
+        </p>
+        <br>
+
+        <div class="member-img">
+          <img src="assets/img/multion_logo.jpeg" class="img-fluid" alt>
+        </div>
+
+        <br><br>
+        <p>
+          <a href="https://www.occam.ai/">Occam AI</a>
+
+        </p>
+
+
+        <br>
+        <div class="member-img">
+          <img src="assets/img/Occam_Ai_black_logo_2 _transparent.png" class="img-fluid" alt>
+        </div>
+
+
+
+        <br><br>
+        <p>
+          <a href="https://www.orby.ai/">Orby AI</a>
+
+        </p>
+
+
+        <br>
+        <div class="member-img">
+          <img src="assets/img/Orby AI-2.jpg" class="img-fluid" alt>
+        </div>
+
+
+
+
+      </div> -->
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><strong>Selecao</strong></strong>.
+        All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/selecao-bootstrap-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        and <a href="https://doc2dial.github.io/workshop2022/">DialDoc</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- Default Statcounter code for llmagents.github.io
+https://llmagents.github.io/ -->
+  <script type="text/javascript">
+    var sc_project = 12953394;
+    var sc_invisible = 1;
+    var sc_security = "86f01d45"; 
+  </script>
+  <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
+  <noscript>
+    <div class="statcounter"><a title="Web Analytics" href="https://statcounter.com/" target="_blank"><img
+          class="statcounter" src="https://c.statcounter.com/12953394/0/86f01d45/1/" alt="Web Analytics"
+          referrerPolicy="no-referrer-when-downgrade"></a></div>
+  </noscript>
+  <!-- End of Statcounter Code -->
+
+</body>
+
+</html>
